@@ -12,13 +12,13 @@ export const MenuSidebarData = [
   },
   {
     title: 'Create set',
-    path: '/createSet',
+    path: '/createSet/shirt',
     icon: <AiOutlinePlus />,
     className: 'nav-text',
   },
   {
     title: 'Your sets',
-    path: '/yourSets',
+    path: '/mySets',
     icon: <GiClothes />,
     className: 'nav-text',
   },

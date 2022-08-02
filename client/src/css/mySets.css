@@ -1,0 +1,11 @@
+.set {
+  border-radius: 5px black;
+  border-style: solid;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.screen {
+  margin-left: 280px;
+  margin-right: 280px;
+}

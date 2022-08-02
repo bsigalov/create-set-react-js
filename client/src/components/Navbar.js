@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { MenuSidebarData } from '../utils/MenuSidebarData'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaBars } from 'react-icons/fa'
-import './navbar.css'
+import '../css/navbar.css'
 
 const Navbar = () => {
   const [menuSidebar, setMenuSidebar] = useState(false)

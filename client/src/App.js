@@ -1,9 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
-import { Container } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 // import screens:
 import HomeScreen from './screens/HomeScreen'
-import YourSetsScreen from './screens/YourSetsScreen'
-import CreateSetScreen from './screens/CreateSetScreen'
+import MySetsScreen from './screens/MySetsScreen'
+import ChooseShirtScreen from './screens/ChooseShirtScreen'
+import ChoosePantsScreen from './screens/ChoosePantsScreen'
+import ChooseShoesScreen from './screens/ChooseShoesScreen'
 
 import Navbar from './components/Navbar'
 
@@ -14,8 +16,10 @@ function App() {
       <main>
         <Routes>
           <Route path={'/'} element={<HomeScreen />} />
-          <Route path={'/yourSets'} element={<YourSetsScreen />} />
-          <Route path={'/createSet'} element={<CreateSetScreen />} />
+          <Route path={'/mySets'} element={<MySetsScreen />} />
+          <Route path={'/createSet/shirt'} element={<ChooseShirtScreen />} />
+          <Route path={'/createSet/pants'} element={<ChoosePantsScreen />} />
+          <Route path={'/createSet/shoes'} element={<ChooseShoesScreen />} />
         </Routes>
       </main>
     </>
