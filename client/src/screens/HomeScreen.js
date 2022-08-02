@@ -67,25 +67,13 @@ const HomeScreen = () => {
         Shoes left in the locker: {shoesState.availableShoes.length}
       </div>
       <div className="buttons">
-        <Button
-          variant="warning"
-          className="each-button"
-          // onClick={() => navigate('/createSet/chooseShirt')}
-        >
+        <Button variant="warning" className="each-button">
           Choose shirt {setsState.chosenShirt && <GrStatusGood />}
         </Button>
-        <Button
-          variant="warning"
-          className="each-button"
-          // onClick={() => navigate('/createSet/choosePants')}
-        >
+        <Button variant="warning" className="each-button">
           Choose pants {setsState.chosenPants && <GrStatusGood />}
         </Button>
-        <Button
-          variant="warning"
-          className="each-button"
-          // onClick={() => navigate('/createSet/chooseShoes')}
-        >
+        <Button variant="warning" className="each-button">
           Choose shoes {setsState.chosenShoes && <GrStatusGood />}
         </Button>
         <br></br> <br></br> <br></br>
