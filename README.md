@@ -1,4 +1,4 @@
-# create-set-react-native
+# create-set-react-js
 
 1. I created a navbar with menu dropdown for the UI. I chose this skill beacuse I think it is he most convenient for user interface.
 
